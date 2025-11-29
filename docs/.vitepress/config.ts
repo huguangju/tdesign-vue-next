@@ -1,5 +1,6 @@
 export default {
   lang: 'zh-CN',
+  base: '/tdesign-vue-next/',
   title: 'TDesign Vue Next 学习指南',
   description: '系统学习与二次开发指南',
   lastUpdated: true,
