@@ -27,7 +27,10 @@
     "dev:chat": "pnpm -C packages/tdesign-vue-next-chat/site dev",
     "build:chat": "pnpm -C internal/builds build:chat",
     "build:auto-import-resolver": "pnpm -C packages/auto-import-resolver build",
-    "robot": "publish-cli robot-msg"
+    "robot": "publish-cli robot-msg",
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
   },
   "author": "tdesign",
   "license": "MIT",
@@ -70,7 +73,8 @@
     "rimraf": "catalog:bundle",
     "tdesign-publish-cli": "catalog:tdesign",
     "tsx": "catalog:bundle",
-    "typescript": "catalog:types"
+    "typescript": "catalog:types",
+    "vitepress": "^1.6.4"
   },
   "config": {
     "commitizen": {
