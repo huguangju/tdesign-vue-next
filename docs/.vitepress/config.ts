@@ -5,7 +5,10 @@ export default {
   description: '系统学习与二次开发指南',
   lastUpdated: true,
   themeConfig: {
-    nav: [{ text: '指南', link: '/guide/' }],
+    nav: [
+      { text: '指南', link: '/guide/' },
+      { text: '资源', link: '/ecosystem/' },
+    ],
     sidebar: {
       '/guide/': [
         {

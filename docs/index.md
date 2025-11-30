@@ -47,8 +47,11 @@ features:
     details: 关键文件路径速览
     link: /guide/11-path-quickref/
   - title: 12 代码参考
-    details: 快速定位核心代码
-    link: /guide/12-code-references/
+  -   details: 快速定位核心代码
+  -   link: /guide/12-code-references/
+  - title: 13 周边资源
+    details: 官方入口、规范与生态资料
+    link: /guide/13-ecosystem-resources/
 ---
 
 ## 待办清单

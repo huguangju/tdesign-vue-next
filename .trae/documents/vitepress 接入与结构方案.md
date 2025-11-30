@@ -72,4 +72,3 @@
   - `docs:dev`: `vitepress dev docs`
   - `docs:build`: `vitepress build docs`
   - `docs:preview`: `vitepress preview docs`
-
